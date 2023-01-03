@@ -46,7 +46,7 @@
 		}
 
 		@media (max-width: 1050px) {
-			height: calc(var(--cell-size) * 3);
+			height: auto;
 			width: calc(var(--cell-size) * 8);
 		}
 	}

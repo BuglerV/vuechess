@@ -17,6 +17,16 @@
 	--window-border: 3px solid black;
 }
 
+@media (max-width: 500px) {
+	html {
+		font-size: 3.5vw;
+	}
+
+	:root {
+		--cell-size: calc( 11vw );
+	}
+}
+
 button {
 	background-color: var(--black-color);
 	padding: 2px 5px;
