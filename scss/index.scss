@@ -1,0 +1,32 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--cell-size: 50px;
+
+	--white-color: #cacad9;
+	--black-color: #257069;
+	--background-color: #4caf50;
+
+	--checked-color: rgb(234, 234, 107);
+	--possible-color: #5ddd5d;
+	--attack-color: rgb(247, 85, 85);
+
+	--window-border: 3px solid black;
+}
+
+button {
+	background-color: var(--black-color);
+	padding: 2px 5px;
+	margin: 2px;
+	min-width: calc(var(--cell-size) * 2);
+	border: none;
+	cursor: pointer;
+	user-select: none;
+}
+
+.center {
+	text-align: center;
+}
