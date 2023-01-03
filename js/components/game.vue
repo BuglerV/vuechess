@@ -6,6 +6,7 @@
 	</div>
 	<GameModal />
 	<WinnerModal />
+	<div class="link"><a href="https://github.com/BuglerV/vuechess">Github</a></div>
 </template>
 
 <script setup>
@@ -46,6 +47,19 @@
 
 		@media (max-width: 1050px) {
 			flex-direction: column;
+		}
+	}
+
+	.link {
+		position: fixed;
+		bottom: 0px;
+		right: 0px;
+		background-color: black;
+		padding: 2px 4px;
+
+		a {
+			color: white;
+			text-decoration: none;
 		}
 	}
 </style>
